@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Portafolios</title>
+</head>
+<body>
+    <!-- Navegacion -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#fotoperfil">Sobre Mi</a></li>
+            <li><a href="#titulohab">Habilidades</a></li>
+            <li><a href="#tituloidio">Idiomas</a></li>
+            <li><a href="#titulomisproy">Proyectos</a></li>
+            <li><a href="#titulofoot">Contacto</a></li>
+        </ul>
+    </nav>
+     <!-- Foto personal -->
+     <header>
+        <div><input type="button" id="darkMode" onclick="enableDarkMode()"></div>
+        <div class="contenedorfoto">
+            <div class="contenedorsobremi">
+                <div class="divperfil">
+                    <img id="fotoperfil" src="media/Brague Pablo Alexis.jpeg" alt="">
+                </div>
+                <div class="divtexto">
+                    <h2 id="titulosobremi">Sobre mi</h2>    
+                    <p class="letrafoto">Mi nombre es <strong> Pablo Alexis Brague </strong> soy un apasionado del diseño y la computacion. Me estoy haciendo lugar en el mundo de la programacion capacitandome constantemente, se puede llegar a decir que eh encontrado el gusto y la felicidad en lo que hago desarrollando y estilizando plataformas, haciendolas mas agiles, rapidas y de facil acceso, sin dejar de lado un lindo diseño visual.Soy una persona muy puntal, exigente conmigo mismo al extremo y que le gusta trabajar en equipo en un ambiente de compañerismo, progreso y enriquecimiento en conjunto.Mi objetivo en cualquier tipo de trabajo es el mismo, el mayor grado de satisfaccion del cliente en cuanto a puntualidad de entrega y desarrollo total del proyecto y el constante enriquesimiento personal, gracias al aprendizaje y nuevos retos, haciendome dia a dia un mejor desarrollador. <br> Este soy yo y estoy a su dispocision para cualquier consulta o proyecto que desee encaminar conmigo. <br> Sin mas que decir solo agradecer el tiempo destinado a mi presentacion y lo dejo con mis conociminetos profesionales hasta el momento. <br> Saludos cordiales.</p>
+                </div>
+            </div>
+        </div>
+    </header> 
+    <!-- Main -->
+    <main>
+        <!-- Mis Habilidades -->
+        <section class="sectionhabid">
+            <div class="caja-padre">
+                <div class="contenedorhab">
+                    <h2 id="titulohab">MIS HABILIDADES</h2>
+                    <div class="skills">
+                        <div class="detalles">
+                            <span>HTML</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="html-menu"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalles">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="css-menu"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalles">
+                            <span>JAVASCRIPT</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="js-menu"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalles">
+                            <span>BOOTSTRAP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="boots-menu"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalles">
+                            <span>WORDPRESS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="wordp-menu"></div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!-- Seccion Mis Idiomas -->
+            <div class="idiomas">
+                <div class="contenedorhab">
+                    <h2 id="tituloidio">MIS IDIOMAS</h2>
+                    <div class="skills">
+                        <div class="detalles">
+                            <img src="media/argentina.png" alt="bandera-argentina" width="50px">
+                            <span>Intermedio</span>
+                            <span>Avanzado</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="arg-menu"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalles">
+                            <img src="media/estados-unidos.png" alt="bandera-argentina" width="50px">
+                            <span>Intermedio</span>
+                            <span>Avanzado</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="eeuu-menu"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalles">
+                            <img src="media/portugal.png" alt="bandera-argentina" width="50px">
+                            <span>Intermedio</span>
+                            <span>Avanzado</span>
+                        </div>
+                        <div class="menu-hab">
+                            <div id="por-menu"></div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!-- Seccion Mis Proyectos -->
+            <div class="tarjetas">
+                <h2 id="titulomisproy">MIS PROYECTOS</h2>
+                <div class="card">
+                    <div class="card-img"></div>
+                    <div class="card-info">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="currentColor"></path></svg>
+                        <p class="text-title">E-LECTOR</p>
+                        <p class="text-body">Cuentos de grandes autores</p>
+                        <button class="card-button"> <a href="https://pablobrague.github.io/cuentos/" target="_blank" class="buttonvis"> Ver Pagina</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="contenedorfooter">
+            <h2 id="titulofoot">Contacto</h2>
+            <a href="https://wa.me/5491156034586" target="_blank"><img src="media/whatsapp.png" alt="wathsapp"></a>
+            <a href="mailto:dean2534@hotmail.com"><img src="media/gmail.png" alt="gmail"></a>
+        </div>
+    </footer>        
+</body>
+</html>
